@@ -1,0 +1,63 @@
+// import google font
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    padding: 0%;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+} 
+
+hr {
+    border: 0;
+    border-top: 1px dotted #efefef;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    a{
+        
+    color: rebeccapurple;
+    }
+}
+
+h1 {
+    color: $primary;
+    margin-bottom: $base-margin;
+}
+a  {
+    color:$secondary;
+}
+button{
+    color: wheat;
+    border: 0;
+    background-color: $primary;
+    border-radius: $base-border-radius;
+    padding: $base-padding;
+}
+.error {
+    color: $error;
+    border-color: $error;
+    border-style:solid;
+    margin: $base-margin;
+    border-radius: $base-border-radius;
+    border-width: $base-border-thickness;
+}
+.notification {
+    color:$secondary;
+    border-color: $secondary;
+    border-style: solid;
+    margin: $base-margin;
+    border-radius: $base-border-radius;
+    border-width: $base-border-thickness;
+}
